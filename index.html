@@ -1,6 +1,40 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ana's Projects</title>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+        <h1>ANA'S</h1>
+        <p class="subtitle">collection of projects</p>
+        <div class="links">
+            <a href="#projects" onclick="showContent('projects')">PROJECTS</a>
+            <a href="#about" onclick="showContent('about')">ABOUT ME</a>
+        </div>
+        </header>
+
+        <main>
+        <section id="about" class="content">
+            <p>Hi, I'm Ana!</p>
+        </section>
+
+        <section id="projects" class="content">
+            <article>
+                <h3>Project 1: ?</h3>
+                <p>Project description, video, link to repository...</p>
+            </article>
+            <article>
+                <h3>Project 2: ?</h3>
+                <p>Project description, video, link to repository...</p>
+            </article>
+        </section>
+        </main>
+
+    <script src="script.js"></script>
+    </body>
 </html>
