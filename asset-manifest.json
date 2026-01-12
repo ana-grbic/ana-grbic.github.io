@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.18e93930.css",
-    "main.js": "/static/js/main.28119011.js",
+    "main.js": "/static/js/main.77b54565.js",
     "static/js/453.a04ae9d0.chunk.js": "/static/js/453.a04ae9d0.chunk.js",
-    "static/media/video1.mp4": "/static/media/video1.7803e735408f6cf7f799.mp4",
+    "static/media/portfolio_website_video.mp4": "/static/media/portfolio_website_video.e93bd9af39629ea68ca2.mp4",
+    "static/media/time_complexity_video.mp4": "/static/media/time_complexity_video.5bf3df0df96479415eae.mp4",
+    "static/media/forest_game_video.mp4": "/static/media/forest_game_video.b73638cb43380ebddf76.mp4",
     "static/media/20241006_145532.jpg": "/static/media/20241006_145532.91d9e355f62650ce9d03.jpg",
     "static/media/20241012_180834.jpg": "/static/media/20241012_180834.7d7741a15d7998124f5a.jpg",
     "static/media/20250728_145058.jpg": "/static/media/20250728_145058.22ac325ba9f5b9ec6f29.jpg",
@@ -71,11 +73,11 @@
     "static/media/IMG-20260111-WA0006.jpg": "/static/media/IMG-20260111-WA0006.aad535bdbf668846e325.jpg",
     "index.html": "/index.html",
     "main.18e93930.css.map": "/static/css/main.18e93930.css.map",
-    "main.28119011.js.map": "/static/js/main.28119011.js.map",
+    "main.77b54565.js.map": "/static/js/main.77b54565.js.map",
     "453.a04ae9d0.chunk.js.map": "/static/js/453.a04ae9d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18e93930.css",
-    "static/js/main.28119011.js"
+    "static/js/main.77b54565.js"
   ]
 }
