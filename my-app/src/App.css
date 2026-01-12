@@ -13,6 +13,93 @@
   }
 }
 
+.body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: rgb(104, 145, 179);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-box {
+  position: relative;
+  width: 70vw;
+  height: 70vh;
+  padding: 40px;
+
+  color: white;
+
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 24px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.content {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.navigation {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.navigation a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+.navigation a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 3px;
+  background: white;
+  border-radius: 50%;
+  transform: scaleX(0.4) rotate(var(--tilt, -1deg));
+  transform-origin: left;
+  opacity: 0;
+  transition: 
+    opacity 0.1s ease,
+    transform 0.5s ease;
+}
+
+.navigation a.active::after {
+  opacity: 1;
+  transform: scaleX(1) rotate(var(--tilt, -1deg));
+}
+
+.schoolbell-regular {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cage-toggle {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 80px;     
+  height: auto;
+  cursor: pointer;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

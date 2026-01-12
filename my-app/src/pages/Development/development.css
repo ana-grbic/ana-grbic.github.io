@@ -1,0 +1,34 @@
+.development-page {
+  width: 100%;
+  height: 100%;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.parent button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.parent video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.parent button:hover {
+  transform: scale(1.02);
+  transition: transform 0.25s ease;
+}
