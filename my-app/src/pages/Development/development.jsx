@@ -1,7 +1,9 @@
 import './development.css'
 import { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom';
-import video1 from '../../assets/video1.mp4'
+import portfolioWebsite from '../../assets/portfolio_website_video.mp4'
+import forestGame from '../../assets/forest_game_video.mp4'
+import timeComplexity from '../../assets/time_complexity_video.mp4'
 import ProjectDetail from '../../components/ProjectDetail/ProjectDetail.jsx'
 
 function Development() {
@@ -26,15 +28,15 @@ function Development() {
       <div className="parent">
 
         <button onClick={() => setActiveProject('project-1')}>
-          <video src={video1} autoPlay muted loop playsInline />
+          <video src={portfolioWebsite} autoPlay muted loop playsInline />
         </button>
 
         <button onClick={() => setActiveProject('project-2')}>
-          <video src={video1} autoPlay muted loop playsInline />
+          <video src={forestGame} autoPlay muted loop playsInline />
         </button>
 
         <button onClick={() => setActiveProject('project-3')}>
-          <video src={video1} autoPlay muted loop playsInline />
+          <video src={timeComplexity} autoPlay muted loop playsInline />
         </button>
       </div>
     </div>
